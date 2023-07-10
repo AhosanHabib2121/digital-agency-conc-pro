@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 .logo-part{
     display: flex;
@@ -72,7 +72,7 @@ nav{
     font-size: 80px;
     font-weight: 900;
     color: white;
-    margin: 0 0 0 400px;
+    margin-left: 333px;
 }
 .banner-sub-title{
     color: #f52c2c;
