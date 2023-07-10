@@ -215,3 +215,53 @@ nav{
     border: 0;
 }
 /* ----appointment section style use end here---- */
+
+/* ----blog section style use start here---- */
+.blog-section{
+    color: #000;
+}
+.blog-head-area{
+    margin-bottom: 60px;
+}
+.blog-title{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.blog-decs{
+    font-size: 23px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.blog-box-area{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.box-item{
+    width: 350px;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 9px gray;
+    border-radius: 10px;
+}
+.box-photo{
+    width: 350px;
+    height:200px;
+    border-radius: 10px 10px 0 0;
+}
+.box-heading{
+    padding: 15px;
+    color: #6e6d6d;
+    font-size: 23px;
+}
+.box-decs{
+    padding: 0 18px 0 15px;
+    color: #6e6d6d;
+    line-height: 22px;
+}
+/* ----blog section style use end here---- */
