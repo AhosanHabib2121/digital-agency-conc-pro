@@ -7,11 +7,19 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    background-color: #f1efef;
+    color: #111111;
+    border-radius: 5px;
+    padding: 17px;
+    font-size: 18px;
+    border: 0;
+}
 /*====some common style used here for use full project end===  */
 
-/* header section style use start here */
+/* ----header section style use start here---- */
 nav{
-    background-color: #aca6a6;
+    background-color: #d1d3d3;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,4 +56,43 @@ nav{
 .menu-container > li > a:hover{
     color: #b9d2e0;
 }
-/* header section style use end here */
+/* ----header section style use end here---- */
+
+/* ----banner section style use start here---- */
+.banner-container{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-for-banner{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    margin: 0 0 0 400px;
+}
+.banner-sub-title{
+    color: #f52c2c;
+}
+.banner-decs{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.button-item{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.btn-one-for-banner{
+    background-color: #f52c2c;
+    color: white;
+    margin-right: 10px;
+}
+/* ----banner section style use end here---- */
