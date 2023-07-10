@@ -1,0 +1,51 @@
+/* universal selector use here */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*====some common style used here for use full project start===  */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*====some common style used here for use full project end===  */
+
+/* header section style use start here */
+nav{
+    background-color: #aca6a6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+.logo-part{
+    display: flex;
+    align-items: center;
+}
+.sub-logo{
+    font-size: 18px;
+    font-weight: 600;
+    color: cyan;
+}
+.main-logo{
+    width: 200px;
+}
+/* menu area style use here */
+.menu-container{
+    display: flex;
+}
+.menu-container li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+.menu-container > li > a{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #282727e1;
+    font-weight: 600;
+}
+.menu-container > li > a:hover{
+    color: #b9d2e0;
+}
+/* header section style use end here */
