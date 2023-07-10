@@ -244,14 +244,14 @@ nav{
 
 .box-item{
     width: 350px;
-    height: 380px;
+    height: 390px;
     background-color: #ffffff;
     box-shadow: 4px 4px 9px gray;
     border-radius: 10px;
 }
 .box-photo{
     width: 350px;
-    height:200px;
+    height:210px;
     border-radius: 10px 10px 0 0;
 }
 .box-heading{
@@ -265,3 +265,62 @@ nav{
     line-height: 22px;
 }
 /* ----blog section style use end here---- */
+
+/* ----footer section style use start here---- */
+footer{
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    padding: 86px 120px 25px 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 0px;
+}
+.footer-detail-part{
+    width: 25%;
+    text-align: center;
+}
+.foot-logo{
+    padding: 0 0 20px 0;
+}
+.fooot-decs{
+    padding: 0 0 15px 0;
+    line-height: 30px;
+}
+.oder-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.oder-list > li{
+    list-style: none;
+    padding: 0 0 80px 0;
+}
+.oder-list > li a{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-style{
+    padding-bottom: 33px;
+}
+.foot-title{
+    padding: 0 0 20px 0;
+    font-size: 22px;
+}
+.unoder-list{
+
+}
+.unoder-list > .item{
+    list-style: none;
+    line-height: 35px; 
+}
+/* copyright-area  */
+.copyright-area{
+    text-align: center;
+    padding-top: 5px;
+}
+/* ----footer section style use end here---- */
+
